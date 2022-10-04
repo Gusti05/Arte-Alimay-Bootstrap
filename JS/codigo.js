@@ -1,4 +1,4 @@
-let producto = prompt("Ingrese el producto que desea comprar (Escriba fin para finalizar");
+let producto = prompt("Ingrese el producto que desea comprar (Escriba fin para finalizar)");
 while(producto != "fin"){
 
 if ((producto == "Aro Margarita Grande") || (producto == "aro margarita grande")){
@@ -12,7 +12,7 @@ if ((producto == "Aro Margarita Grande") || (producto == "aro margarita grande")
 }else if ((producto == "Colgante Frase") || (producto =="colgante frase")){
     console.log("El precio del Colgante Frase es $550");
 }else{
-    console.log("Producto sin stock!");
+    alert("Producto sin stock!");
 }
 producto = prompt("Ingrese el producto que desea comprar (Escriba fin para finalizar");
 }
