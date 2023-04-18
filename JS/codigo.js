@@ -1,3 +1,4 @@
+/*
 let productos = prompt("Ingrese el producto que desea comprar (Escriba fin para finalizar)");
 while(productos != "fin"){
 
@@ -21,19 +22,4 @@ function saludar(){
     alert("Gracias por su compra!!!")
 }
 saludar();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
